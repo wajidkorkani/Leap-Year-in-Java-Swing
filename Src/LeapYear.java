@@ -10,7 +10,14 @@ public class LeapYear{
         JFrame frame = new JFrame("Java Swing");
         frame.setLayout(new FlowLayout());
         JTextField input = new JTextField(50);
+        // input.setFont(new Font("Arial", Font.BOLD, 20));
+        // input.setBackground(Color.WHITE);
+        // input.setForeground(Color.BLACK);
         JButton btn = new JButton("Submit");
+        btn.setFont(new Font("Arial", Font.BOLD, 30));
+        btn.setBackground(Color.BLACK);
+        btn.setForeground(Color.WHITE);
+        btn.setBorder(BorderFactory.createEmptyBorder());
         frame.getContentPane().add(input);
         frame.getContentPane().add(btn);
         JLabel label = new JLabel();
